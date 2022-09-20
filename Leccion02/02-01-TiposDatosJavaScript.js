@@ -59,3 +59,19 @@ class Persona {
     }
 }
 console.log(typeof(Persona));
+
+//Tipo undefined
+var x;
+console.log(typeof x)
+
+x = undefined;
+console.log(x)
+
+//null = ausencia de valor
+var y = null;
+console.log(typeof y);
+
+//Tipo de dato en forma de arreglo
+let autos = ['BMW', 'Audi', 'Volvo'];
+console.log(autos);
+console.log(typeof(autos));
