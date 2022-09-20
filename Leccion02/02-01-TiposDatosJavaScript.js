@@ -75,3 +75,8 @@ console.log(typeof y);
 let autos = ['BMW', 'Audi', 'Volvo'];
 console.log(autos);
 console.log(typeof(autos));
+
+//Uso de la cadena vacia como dato
+let z = '';
+console.log(z);
+console.log(typeof(z));
