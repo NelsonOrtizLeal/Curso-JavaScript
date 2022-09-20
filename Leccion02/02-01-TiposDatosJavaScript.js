@@ -32,3 +32,30 @@ console.log(typeof(variable));
 //Las variables hacer dinamicas pueden cambiar su contenido
 variable = "Hola mundo";
 console.log(typeof(variable));
+
+/**
+ * Agregando mas tipos de datos
+ */
+
+//Tipo de datos Booleanos
+let bandera = true;
+console.log(bandera);
+
+//Tipo de dato Function
+function miFuncion() {
+    console.log("Hola mundo");
+}
+console.log(typeof(miFuncion));
+
+//Tipo de dato Symbol
+var simbolo = Symbol("Mi simbolo");
+console.log(typeof(simbolo));
+
+//Las CLASES en JavaScript son una FUNCTION
+class Persona {
+    constructor(nombre, apellido) {
+        this.nombre = nombre,
+            this.apellido = apellido;
+    }
+}
+console.log(typeof(Persona));
